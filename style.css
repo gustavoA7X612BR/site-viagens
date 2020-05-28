@@ -188,7 +188,7 @@ header nav ul li {
 .contato .contato-card {
     width: 350px;
     height: 300px;
-    background: purple;
+    background: #817F82;
     position: absolute;
     z-index: 99;
     top: calc(50% - 150px);
