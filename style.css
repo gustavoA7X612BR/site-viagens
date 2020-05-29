@@ -25,7 +25,8 @@ button {
 /*Cabeçario*/
 header {
     height: calc(100vh - 150px);
-    background: no-repeat center/cover url('assets/header-image.jpg');
+    /*background: no-repeat center/cover url('assets/header-image.jpg');*/
+    background-color: violet;
 }
 
 header nav {
@@ -49,10 +50,6 @@ header nav ul li {
     text-align: center;
 }
 
-.header-content p {
-    margin-bottom: 35px;
-}
-
 .header-content h1{
     font-size: 4rem;
 }
@@ -74,7 +71,7 @@ header nav ul li {
     width: 100%;
     margin: auto;
     text-align: center;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 .pacotes .cards {
@@ -240,6 +237,7 @@ header nav ul li {
         position: static;
         margin: 40px auto;
     }
+
 }
 
 @media (max-width: 767px) {
@@ -249,6 +247,7 @@ header nav ul li {
 }
 
 @media (max-width: 480px) {
+
     body {
         margin-bottom: 55px;
     }
@@ -259,13 +258,17 @@ header nav ul li {
         width: 100%;
         padding: 0;
         background: #034983;
-        color: wheat;
+        color: white;
         height: 55px;
         margin: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         z-index: 1;
+    }
+    
+    .header-content {
+        margin: 50px auto;
     }
 
     header nav p {
