@@ -1,7 +1,6 @@
 # Site de agência de viagens
 
-Fiz este layout de um site de uma agência de viagens baseado em um tutorial do YouTube.
-
+Fiz este layout de um site de uma agência de viagens fictícia chamada "Upstart Viagens". Foi utilizado somente HTML5, CSS3 e um pouco de JavaScript.
 
 # Recursos
 
