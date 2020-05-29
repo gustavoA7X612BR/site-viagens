@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
 }
-
+/*Definições gerais*/
 body {
     margin: 0;
     background: #BFBDC1;
@@ -22,6 +22,7 @@ button {
     background: #F3B108;
 }
 
+/*Cabeçario*/
 header {
     height: calc(100vh - 150px);
     background: no-repeat center/cover url('assets/header-image.jpg');
@@ -55,7 +56,7 @@ header nav ul li {
 .header-content h1{
     font-size: 4rem;
 }
-
+/*Pacotes*/
 .pacotes {
     padding: 20px;
 
@@ -137,7 +138,7 @@ header nav ul li {
     text-align: center;
     margin: 0px;
 }
-
+/*Serviços*/
 .servicos {
     padding: 15px;
 }
@@ -179,7 +180,7 @@ header nav ul li {
     stroke: green;
     transform: scale(1.1);
 }
-
+/*Contato*/
 .contato {
     padding: 60px 20%;
     position: relative;
@@ -214,6 +215,7 @@ header nav ul li {
     margin: 10px;
 }
 
+/*Mapa*/
 
 #map {
     height: 400px;
@@ -221,8 +223,6 @@ header nav ul li {
 }
 
 /* Responsividade */
-
-/*MAPA*/
 
 @media (max-width: 950px) {
     .contato {
