@@ -25,8 +25,7 @@ button {
 /*Cabeçario*/
 header {
     height: calc(100vh - 150px);
-    /*background: no-repeat center/cover url('assets/header-image.jpg');*/
-    background-color: violet;
+    background: no-repeat center/cover url('assets/header-image.jpg');
 }
 
 header nav {
